@@ -15,4 +15,3 @@ Task: What is the linux command to
 11. To find the difference between fruits.txt and Colors.txt file.
 
 
-Reference: https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/
