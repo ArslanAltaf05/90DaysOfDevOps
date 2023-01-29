@@ -20,6 +20,26 @@
 
  1) You have to install docker and jenkins in your system from your terminal using package managers
 
+ 1. Install Docker:
+    update the package index
+    sudo apt-get update
+ 2. Install Docker Packages:
+    sudo apt-get install docker.io
+ 3. Start and enable Docker service:
+    sudo systemctl start docker
+    sudo systemctl enable docker
+To install jenkins:
+ 1. Add the Jenkins repo:
+    wget -q -o -  https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+ 2. Add jenkins repo to the source list:
+    sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+ 3. Update the Package Index:
+    sudo apt-get update
+ 4. Install Jenkins:
+    sudo apt-get install jenkins
+ 5. Start and enable jenkins service:
+    sudo systemctl start jenkins
+
  2) Write a small blog or article to install these tools using package managers on Ubuntu and CentOS
 
 
